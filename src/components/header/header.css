@@ -1,3 +1,7 @@
+.header {
+  user-select: none;
+}
+
 .header-content {
   display: flex;
   position: fixed;

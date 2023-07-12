@@ -30,7 +30,7 @@ function Header() {
         <div>
 
 
-            <header>
+            <header className='header'>
                 <div className='header-content'>
                     <p className='enterprise-p'><strong>Jottadevs</strong></p>
 
