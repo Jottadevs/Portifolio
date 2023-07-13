@@ -20,16 +20,73 @@
 
 .color-Jotta {
   font-size: 25px;
-  color: #70898f;
+  color: var(--elements);
   font-weight: 700;
 }
 
 .color-Front {
-  color: #70898f;
+  color: var(--elements);
   font-weight: 700;
 }
 
 .myName,
 .Iam {
   font-weight: 500;
+}
+
+.about-me {
+  position: relative;
+  top: 35px;
+  left: 15px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.js-color {
+  color: #ffdd01;
+}
+
+.react-color {
+  color: #04c0c7;
+}
+
+/* social icones */
+
+.contacts {
+  position: relative;
+  top: 200px;
+}
+
+.contact {
+  width: 120px;
+  height: 40px;
+  background-color: var(--elements);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: var(--background);
+}
+
+.links-sociais {
+  width: 20px;
+  display: flex;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  font-size: 25px;
+}
+
+.links-sociais a {
+  text-decoration: none;
+  color: var(--text);
+  margin: 0 5px 0 0;
+}
+
+.links-sociais a:hover {
+  opacity: 0.8;
 }
