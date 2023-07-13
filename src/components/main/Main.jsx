@@ -4,13 +4,17 @@ function Main() {
     return (
         <main className="main">
             <div className='apresentation-main'>
-                <h2>Olá meu nome é</h2>
-                <h1>João Lucas</h1>
-                <h3>mas pode me chamar de <span>Jotta</span></h3>
-                <h2>Eu sou desenvolvedor <span>Front-End.</span></h2>
+                <h2 className='myName'>Olá meu nome é</h2>
+
+                <h1>João Lucas
+                    <span className='apresentation-main-sub'> mas pode me chamar de
+                        <span className='color-Jotta'> Jotta</span></span>
+                </h1>
+
+                <h2 className='Iam'>Eu sou desenvolvedor <span className='color-Front'>Front-End.</span></h2>
             </div>
 
-        </main>
+        </main >
     );
 }
 

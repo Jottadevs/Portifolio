@@ -47,6 +47,18 @@ function Sidebar() {
         };
     },);
 
+    let moonRotation = false
+
+    function moonRotate() {
+        const moonButton = document.querySelector(".icon-darkmode")
+        if (!moonRotation) {
+            moonRotation = true
+            moonButton.classList.add("rotate")
+        } else {
+            moonRotation = false
+            moonButton.classList.remove("rotate")
+        }
+    }
 
     return (
 
@@ -64,7 +76,7 @@ function Sidebar() {
                         Dark Mode
                         <label>
                             <input type="checkbox" id="darkmode-checkbox" hidden />
-                            <MdDarkMode className='icon-darkmode' />
+                            <MdDarkMode className='icon-darkmode' onClick={moonRotate} />
                         </label>
                     </p>
 
