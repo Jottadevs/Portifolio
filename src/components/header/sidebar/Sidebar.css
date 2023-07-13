@@ -16,8 +16,8 @@
 
 .sidebar {
   position: fixed;
-  width: 300px;
-  height: 500px;
+  width: 150px;
+  height: 250px;
   background-color: var(--sidebar);
   color: white;
   border-radius: 25px 0 0 25px;
@@ -42,32 +42,17 @@
 
 .darkmode {
   position: relative;
-  font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  top: 5px;
+  font-size: 15px;
+  display: grid;
 }
 
 .icon-darkmode {
   position: relative;
   font-size: 25px;
   cursor: pointer;
+  top: 15px;
 }
 
 .icon-darkmode.rotate {
   transform: rotateY(180deg);
-}
-
-.about {
-  position: relative;
-  font-size: 20px;
-  top: 290px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.icon-about {
-  position: relative;
-  font-size: 25px;
-  cursor: pointer;
 }

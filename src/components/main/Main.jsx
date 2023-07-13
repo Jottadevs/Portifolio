@@ -41,7 +41,6 @@ function Main() {
                             <a href="https://www.linkedin.com/in/jo%C3%A3o-lucas-99aa9b259/" target='_blanck'>
                                 <FaLinkedin />
                             </a>
-                            teste
                         </div>
                     </div>
 

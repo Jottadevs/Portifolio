@@ -79,12 +79,6 @@ function Sidebar() {
                             <MdDarkMode className='icon-darkmode' onClick={moonRotate} />
                         </label>
                     </p>
-
-
-                    <p className='about'>
-                        Sobre
-                        <FcAbout className='icon-about' />
-                    </p>
                 </div>
             </div>
         </div>
