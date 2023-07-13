@@ -1,6 +1,6 @@
 
-import './Header.css'
 import Sidebar from './sidebar/Sidebar'
+import './Header.css'
 
 function Header() {
 
@@ -14,7 +14,6 @@ function Header() {
                     <Sidebar />
                 </div>
             </header>
-
 
 
         </div>

@@ -1,11 +1,7 @@
 //Icones
 import { BiMenuAltRight } from 'react-icons/bi' //Icone menu sidebar
-import { BsPeopleFill } from 'react-icons/bs' // Icone de contato
 import { FcAbout } from 'react-icons/fc' // Icone de sobre
 import { MdDarkMode } from 'react-icons/md' // Icone do dark mode
-import { FaInstagram } from 'react-icons/fa' // Iconde do instagram
-import { FaGithub } from 'react-icons/fa' // Icone do github
-import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin
 //Hooks
 import { useEffect } from 'react'
 //Css
@@ -32,17 +28,6 @@ function Sidebar() {
             setTimeout(() => {
                 menuButton.classList.remove("active");
             }, 300);
-        }
-    }
-
-    function socialIconsVisible() {
-        const socialIcons = document.querySelector(".socias-icons")
-        if (!visible) {
-            visible = true
-            socialIcons.classList.add("active")
-        } else {
-            visible = false
-            socialIcons.classList.remove("active")
         }
     }
 
@@ -74,24 +59,6 @@ function Sidebar() {
 
             <div className='sidebar' id='sidebar-function'>
                 <div className="elements-sidebar">
-                    <p className='contactus'>
-                        Contate-me
-                        <BsPeopleFill onClick={socialIconsVisible} className='icon-contact' />
-                    </p>
-
-                    <div className='socias-icons'>
-                        <a href="https://instagram.com/jottalucass" target='_blank'>
-                            <FaInstagram />
-                        </a>
-
-                        <a href="https://github.com/Jottadevs" target='_blank'>
-                            <FaGithub />
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/jo%C3%A3o-lucas-99aa9b259/" target='_blank'>
-                            <FaLinkedin />
-                        </a>
-                    </div>
 
                     <p className='darkmode'>
                         Dark Mode
