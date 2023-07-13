@@ -13,6 +13,7 @@ body {
   --textsidebar: #050505;
   --sidebar: #fafafa;
   --text: #fafafa;
+  --scroolbarFundo: #050505;
 }
 
 .dark {
@@ -21,6 +22,7 @@ body {
   --text: #fafafa;
   --sidebar: #050505;
   --elements: #9061ff;
+  --scroolbarFundo: #555;
 }
 
 .background {
@@ -36,4 +38,25 @@ body {
   width: 100%;
   height: var(--height);
   opacity: 0.7;
+}
+
+/* Largura e cor da barra */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Cor do rastro da barra */
+::-webkit-scrollbar-track {
+  background-color: var(--scroolbarFundo);
+}
+
+/* Cor do indicador da barra */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px 0 0 5px;
+  background-color: var(--sidebar);
+}
+
+/* Estilizando a borda do indicador da barra */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ccc;
 }
