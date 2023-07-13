@@ -48,3 +48,80 @@
 .sidebar.active {
   transform: translateX(0);
 }
+
+.elements-sidebar {
+  position: absolute;
+  width: 230px;
+  height: 400px;
+  top: 70px;
+  left: 40px;
+}
+
+.icon-about {
+  position: relative;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.about {
+  position: relative;
+  font-size: 20px;
+  top: 290px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social {
+  visibility: visible;
+}
+
+.socias-icons {
+  visibility: hidden;
+  position: relative;
+  top: 5px;
+  left: 0;
+}
+
+.socias-icons a:hover {
+  opacity: 0.8;
+}
+
+.socias-icons.active a {
+  visibility: visible;
+  appearance: none;
+  outline: none;
+  color: white;
+  padding: 3px;
+  font-size: 1.8rem;
+}
+
+.icon-contact {
+  position: relative;
+  top: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.icon-contact:hover {
+  opacity: 0.8;
+}
+
+.contactus {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.darkmode {
+  position: relative;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  top: 5px;
+}
+
+.icon-darkmode {
+  position: relative;
+  font-size: 25px;
+  cursor: pointer;
+}
