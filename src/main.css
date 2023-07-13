@@ -4,5 +4,19 @@
 }
 
 body {
-  background: #ccc;
+  background: var(--background);
+}
+
+:root {
+  --background: #fafafa;
+  --textsidebar: #fafafa;
+  --text: #050505;
+  --sidebar: #050505;
+}
+
+.dark {
+  --background: #050505;
+  --textsidebar: #050505;
+  --sidebar: #fafafa;
+  --text: #fafafa;
 }

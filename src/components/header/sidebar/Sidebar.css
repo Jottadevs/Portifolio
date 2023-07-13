@@ -1,0 +1,107 @@
+.icon-label {
+  position: absolute;
+  right: 4rem;
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.icon-label.active {
+  color: var(--textsidebar);
+  z-index: 999;
+}
+
+.sidebar {
+  position: fixed;
+  width: 300px;
+  height: 500px;
+  background-color: var(--sidebar);
+  color: white;
+  border-radius: 25px 0 0 25px;
+  right: 0;
+  transform: translateX(300px);
+  transition: all 0.8s ease;
+  top: 30px;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+}
+
+.elements-sidebar {
+  position: absolute;
+  width: 230px;
+  height: 400px;
+  top: 70px;
+  left: 40px;
+  color: var(--textsidebar);
+}
+
+.icon-about {
+  position: relative;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.about {
+  position: relative;
+  font-size: 20px;
+  top: 290px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social {
+  visibility: visible;
+}
+
+.socias-icons {
+  visibility: hidden;
+  position: relative;
+  top: 5px;
+  left: 0;
+}
+
+.socias-icons a:hover {
+  opacity: 0.8;
+}
+
+.socias-icons.active a {
+  visibility: visible;
+  appearance: none;
+  outline: none;
+  color: var(--textsidebar);
+  padding: 3px;
+  font-size: 1.8rem;
+}
+
+.icon-contact {
+  position: relative;
+  top: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.icon-contact:hover {
+  opacity: 0.8;
+}
+
+.contactus {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.darkmode {
+  position: relative;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  top: 5px;
+}
+
+.icon-darkmode {
+  position: relative;
+  font-size: 25px;
+  cursor: pointer;
+}
