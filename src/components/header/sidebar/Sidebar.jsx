@@ -73,7 +73,7 @@ function Sidebar() {
                 <div className="elements-sidebar">
 
                     <p className='darkmode'>
-                        Dark Mode
+                        Light Mode
                         <label>
                             <input type="checkbox" id="darkmode-checkbox" hidden />
                             <MdDarkMode className='icon-darkmode' onClick={moonRotate} />

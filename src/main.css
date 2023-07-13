@@ -5,19 +5,35 @@
 
 body {
   background: var(--background);
+  --height: 200vh;
 }
 
 :root {
-  --background: #fafafa;
-  --textsidebar: #fafafa;
-  --text: #050505;
-  --sidebar: #050505;
-  --elements: #9061ff;
-}
-
-.dark {
   --background: #050505;
   --textsidebar: #050505;
   --sidebar: #fafafa;
   --text: #fafafa;
+}
+
+.dark {
+  --background: #fafafa;
+  --textsidebar: #fafafa;
+  --text: #fafafa;
+  --sidebar: #050505;
+  --elements: #9061ff;
+}
+
+.background {
+  position: absolute;
+  opacity: 0.3;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.background-b {
+  position: absolute;
+  background-color: #050505;
+  width: 100%;
+  height: var(--height);
+  opacity: 0.7;
 }

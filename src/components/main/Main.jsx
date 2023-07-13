@@ -42,8 +42,6 @@ function Main() {
                                 <FaLinkedin />
                             </a>
                         </div>
-
-
                     </div>
 
                 </div>
