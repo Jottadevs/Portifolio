@@ -1,0 +1,36 @@
+@media (max-width: 380px) {
+  .picture-j {
+    top: 50px;
+    width: 250px;
+  }
+
+  .section-aboutme {
+    height: 1250px;
+  }
+
+  .iam-j {
+    left: 30px;
+    top: 380px;
+  }
+
+  .desc-about {
+    left: 30px;
+    top: 400px;
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .idioma {
+    left: 30px;
+    top: 430px;
+  }
+
+  .idioma-br {
+    left: 130px;
+    top: 1050px;
+  }
+  .idioma-eua {
+    left: 130px;
+    top: 1130px;
+  }
+}

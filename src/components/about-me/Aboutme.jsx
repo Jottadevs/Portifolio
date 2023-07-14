@@ -1,4 +1,5 @@
 import './Aboutme.css'
+import './Responsivo.css'
 
 function Aboutme() {
     return (

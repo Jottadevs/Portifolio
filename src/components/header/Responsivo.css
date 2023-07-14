@@ -1,0 +1,29 @@
+@media (max-width: 380px) {
+  .menu {
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    font-size: 15px;
+    width: 280px;
+  }
+
+  .enterprise-p {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+
+  .header-content {
+    height: 10rem;
+  }
+
+  .icon-label {
+    position: absolute;
+    top: 75px;
+    left: 320px;
+  }
+
+  .icon-label.active {
+    top: 55px;
+  }
+}
