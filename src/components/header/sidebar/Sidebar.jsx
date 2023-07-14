@@ -37,7 +37,7 @@ function Sidebar() {
 
 
         const toggleDarkMode = () => {
-            HTML.classList.toggle('dark');
+            HTML.classList.toggle('light');
         };
 
         checkbox.addEventListener('click', toggleDarkMode);
@@ -51,12 +51,16 @@ function Sidebar() {
 
     function moonRotate() {
         const moonButton = document.querySelector(".icon-darkmode")
+        const background = document.querySelector(".background-white")
+
         if (!moonRotation) {
             moonRotation = true
             moonButton.classList.add("rotate")
+            background.classList.add("active")
         } else {
             moonRotation = false
             moonButton.classList.remove("rotate")
+            background.classList.remove("active")
         }
     }
 

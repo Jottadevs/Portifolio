@@ -16,9 +16,10 @@ body {
   --elements: #4685ff;
 }
 
-.dark {
+.light {
+  --background: #f3f3ee;
   --textsidebar: #fafafa;
-  --text: #fafafa;
+  --text: #050505;
   --sidebar: #050505;
   --elements: #9061ff;
 }
@@ -35,13 +36,13 @@ body {
 
 /* Cor do rastro da barra */
 ::-webkit-scrollbar-track {
-  background-color: var(--sidebar);
+  background-color: var(--textsidebar);
 }
 
 /* Cor do indicador da barra */
 ::-webkit-scrollbar-thumb {
   border-radius: 0 0 0 5px;
-  background-color: var(--textsidebar);
+  background-color: var(--sidebar);
 }
 
 /* Estilizando a borda do indicador da barra */

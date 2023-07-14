@@ -2,11 +2,18 @@ import './Main.css'
 import { FaInstagram } from 'react-icons/fa' // Iconde do instagram
 import { FaGithub } from 'react-icons/fa' // Icone do github
 import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin
+import Scrool from './scrool/Scrool';
 
 
 function Main() {
     return (
         <div>
+
+            <div>
+                <img src="/img/herobg.png" className="background" />
+                <img src="/img/herobg1.png" className="background-white" />
+            </div>
+
             <main className="main">
                 <div className='apresentation-main'>
                     <h2 className='myName'>Olá meu nome é</h2>
@@ -45,6 +52,8 @@ function Main() {
                     </div>
 
                 </div>
+
+                <Scrool />
             </main>
         </div>
     );

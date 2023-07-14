@@ -90,3 +90,20 @@
 .links-sociais a:hover {
   opacity: 0.8;
 }
+
+.background {
+  position: absolute;
+  width: 100%;
+}
+
+.background-white {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
+.background-white.active {
+  position: absolute;
+  width: 100%;
+  display: block;
+}
