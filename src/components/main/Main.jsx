@@ -1,5 +1,4 @@
 import './Main.css'
-import './Responsivo.css'
 import { FaInstagram } from 'react-icons/fa' // Iconde do instagram
 import { FaGithub } from 'react-icons/fa' // Icone do github
 import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin

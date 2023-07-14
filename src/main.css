@@ -6,6 +6,7 @@
 body {
   background: var(--background);
   height: 400vh;
+  overflow-x: hidden;
 }
 
 :root {

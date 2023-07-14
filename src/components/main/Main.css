@@ -94,16 +94,17 @@
 .background {
   position: absolute;
   width: 100%;
+  border: none;
 }
 
 .background-white {
   position: absolute;
-  width: 100%;
   display: none;
+  border: none;
 }
 
 .background-white.active {
   position: absolute;
-  width: 100%;
+  width: 101%;
   display: block;
 }

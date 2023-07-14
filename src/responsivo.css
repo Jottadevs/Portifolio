@@ -1,0 +1,175 @@
+@media (max-width: 380px) {
+  .menu {
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    font-size: 15px;
+    width: 280px;
+  }
+
+  .enterprise-p {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+
+  .header-content {
+    height: 10rem;
+  }
+
+  .icon-label {
+    position: absolute;
+    top: 75px;
+    left: 320px;
+  }
+
+  .icon-label.active {
+    top: 55px;
+  }
+
+  .apresentation-main {
+    font-size: 15px;
+    width: 90%;
+    top: 60px;
+    left: 50px;
+  }
+
+  .about-me {
+    font-size: 15px;
+    left: 10px;
+  }
+
+  .contacts {
+    top: 110px;
+  }
+
+  .scroll-wheel {
+    position: absolute;
+    left: 140px;
+    bottom: 30px;
+  }
+
+  .picture-j {
+    top: 50px;
+    width: 250px;
+  }
+
+  .section-aboutme {
+    height: 1250px;
+  }
+
+  .iam-j {
+    left: 30px;
+    top: 380px;
+  }
+
+  .desc-about {
+    left: 30px;
+    top: 400px;
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .idioma {
+    left: 30px;
+    top: 430px;
+  }
+
+  .idioma-br {
+    left: 130px;
+    top: 1050px;
+  }
+
+  .idioma-eua {
+    left: 130px;
+    top: 1130px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu {
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    font-size: 15px;
+    width: 280px;
+  }
+
+  .enterprise-p {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+
+  .header-content {
+    height: 10rem;
+  }
+
+  .icon-label {
+    position: absolute;
+    top: 75px;
+    left: 320px;
+  }
+
+  .icon-label.active {
+    top: 55px;
+  }
+
+  .apresentation-main {
+    font-size: 15px;
+    width: 90%;
+    top: 60px;
+    left: 50px;
+  }
+
+  .about-me {
+    font-size: 15px;
+    left: 10px;
+  }
+
+  .contacts {
+    top: 110px;
+  }
+
+  .scroll-wheel {
+    position: absolute;
+    left: 140px;
+    bottom: 30px;
+  }
+
+  .picture-j {
+    top: 50px;
+    width: 250px;
+  }
+
+  .section-aboutme {
+    top: 100vh;
+    height: 1250px;
+  }
+
+  .iam-j {
+    left: 30px;
+    top: 380px;
+  }
+
+  .desc-about {
+    left: 30px;
+    top: 400px;
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .idioma {
+    left: 30px;
+    top: 430px;
+  }
+
+  .idioma-br {
+    left: 130px;
+    top: 1050px;
+  }
+  .idioma-eua {
+    left: 130px;
+    top: 1130px;
+  }
+}

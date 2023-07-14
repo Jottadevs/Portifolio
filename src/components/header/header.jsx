@@ -1,7 +1,6 @@
 
 import Sidebar from './sidebar/Sidebar'
 import './Header.css'
-import './Responsivo.css'
 
 function Header() {
 
