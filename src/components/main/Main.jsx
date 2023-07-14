@@ -14,7 +14,7 @@ function Main() {
                 <img src="/img/herobg1.png" className="background-white" />
             </div>
 
-            <main className="main">
+            <main id='main' className="main">
                 <div className='apresentation-main'>
                     <h2 className='myName'>Olá meu nome é</h2>
 
@@ -27,10 +27,10 @@ function Main() {
 
                     <div className="about-me">
                         <p>
-                            Programador Jr. Possuo 18 anos e estou estudando programação <br />
-                            para ser um desenvolvedor full stack. Estou em busca da minha <br />
-                            primeira vaga de emprego.  <br />
-                            Minhas especialidades são <span className='js-color'> Java script </span> e <span className='react-color'> React Js </span>.
+                            Sou programador Jr Front-end. Estou estudando programação a 9 messes <br />
+                            com inutito de ser um desenvolvedor full stack. Estou em busca da minha <br />
+                            <strong>primeira</strong> vaga de emprego.  <br />
+                            Minhas especialidades são até o momento são <span className='js-color'> Java script </span> e <span className='react-color'> React Js </span>.
                         </p>
                     </div>
 

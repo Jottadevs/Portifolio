@@ -5,7 +5,7 @@
 
 body {
   background: var(--background);
-  height: 200vh;
+  height: 400vh;
 }
 
 :root {
@@ -24,14 +24,9 @@ body {
   --elements: #9061ff;
 }
 
-.background {
-  position: absolute;
-  width: 100%;
-}
-
 /* Largura e cor da barra */
 ::-webkit-scrollbar {
-  width: 11px;
+  width: 5px;
 }
 
 /* Cor do rastro da barra */
