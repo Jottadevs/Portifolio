@@ -1,5 +1,5 @@
 import Aboutme from "./components/about-me/Aboutme";
-import Header from "./components/header/Header";
+import Head from "./components/head/Head";
 import Main from "./components/main/Main";
 
 import './responsivo.css'
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Head />
       <Main />
       <Aboutme />
     </div>

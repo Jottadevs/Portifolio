@@ -1,8 +1,8 @@
 
 import Sidebar from './sidebar/Sidebar'
-import './Header.css'
+import './Head.css'
 
-function Header() {
+function Head() {
 
     function inicio() {
         const elementoDestino = document.getElementById("main");
@@ -62,4 +62,4 @@ function Header() {
 }
 
 
-export default Header; 
+export default Head; 
