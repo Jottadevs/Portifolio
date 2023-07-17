@@ -1,6 +1,5 @@
 //Icones
 import { BiMenuAltRight } from 'react-icons/bi' //Icone menu sidebar
-import { FcAbout } from 'react-icons/fc' // Icone de sobre
 import { MdDarkMode } from 'react-icons/md' // Icone do dark mode
 //Hooks
 import { useEffect } from 'react'
