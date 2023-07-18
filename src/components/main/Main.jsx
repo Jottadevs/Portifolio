@@ -4,14 +4,17 @@ import { FaGithub } from 'react-icons/fa' // Icone do github
 import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin
 import Scrool from './scrool/Scrool';
 
+import background from '/img/herobg.png';
+import backgroundW from '/img/herobg1.png';
+
 
 function Main() {
     return (
         <div>
 
             <div>
-                <img src="/img/herobg.png" className="background" />
-                <img src="/img/herobg1.png" className="background-white" />
+                <img src={background} className="background" />
+                <img src={backgroundW} className="background-white" />
             </div>
 
             <main id='main' className="main">
