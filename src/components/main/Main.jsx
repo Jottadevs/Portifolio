@@ -9,8 +9,8 @@ function Main() {
         <div>
 
             <div>
-                <img src='./Images/backgroundDark.jpg' className="background" />
-                <img src='./Images/backgroundWhite.jpg' className="background-white" />
+                <img src='./Images/backgroundDark.png' className="background" />
+                <img src='./Images/backgroundWhite.png' className="background-white" />
             </div>
 
             <main id='main' className="main">
