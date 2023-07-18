@@ -4,8 +4,6 @@ import { FaGithub } from 'react-icons/fa' // Icone do github
 import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin
 import Scrool from './scrool/Scrool';
 
-import background from '../../../img/backgroundDark.png'
-import backgroundW from '../../../img/backgroundWhite.png'
 
 
 function Main() {
@@ -13,8 +11,8 @@ function Main() {
         <div>
 
             <div>
-                <img src={background} className="background" />
-                <img src={backgroundW} className="background-white" />
+                <img src='./img/backgroundDark.png' className="background" />
+                <img src='./img/backgroundWhite.png' className="background-white" />
             </div>
 
             <main id='main' className="main">
