@@ -2,17 +2,15 @@ import './Main.css'
 import { FaInstagram } from 'react-icons/fa' // Iconde do instagram
 import { FaGithub } from 'react-icons/fa' // Icone do github
 import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin
-import Scrool from './scrool/Scrool';
-
-
+import Scrool from '../scrool/Scrool';
 
 function Main() {
     return (
         <div>
 
             <div>
-                <img src='./img/backgroundDark.png' className="background" />
-                <img src='./img/backgroundWhite.png' className="background-white" />
+                <img src='./Images/backgroundDark.jpg' className="background" />
+                <img src='./Images/backgroundWhite.jpg' className="background-white" />
             </div>
 
             <main id='main' className="main">

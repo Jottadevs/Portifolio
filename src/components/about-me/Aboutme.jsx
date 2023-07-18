@@ -21,17 +21,17 @@ function Aboutme() {
                     atual area de atuação o React Js, e continuarei empenhando até chegar ao <br />
                     meu objetivo, me tornar um <strong> dev fullstack.</strong>
                 </p>
-                <img src="./img/eu.jpg" alt="jottadev" className='picture-j' />
+                <img src="./Images/eu.jpg" alt="jottadev" className='picture-j' />
                 <h1 className='idioma'>Idiomas:</h1>
             </div>
             <div className='idiomas'>
                 <div className="idioma-br">
-                    <img src="./img/bandeira-brasil.jfif" alt="bandeira-brasil" className='bandeira-brasil' />
+                    <img src="./Images/bandeira-brasil.jfif" alt="bandeira-brasil" className='bandeira-brasil' />
                     <h2>Português</h2>
                     <h3 className='opacity-idioma'>Nativo</h3>
                 </div>
                 <div className="idioma-eua">
-                    <img src="./img/bandeira-eua.jfif" alt="bandeira-eua" className='bandeira-eua' />
+                    <img src="./Images/bandeira-eua.jfif" alt="bandeira-eua" className='bandeira-eua' />
                     <h2>Inglês</h2>
                     <h3 className='opacity-idioma'>Técnico</h3>
                 </div>
