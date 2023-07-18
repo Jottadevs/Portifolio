@@ -1,8 +1,8 @@
 import './Aboutme.css'
 
-import eu from "/img/eu.jpg"
-import euabandeira from "/img/bandeira-eua.jfif"
-import brasilbandeira from "/img/bandeira-brasil.jfif"
+import eu from "img/eu.jpg"
+import euabandeira from "img/bandeira-eua.jfif"
+import brasilbandeira from "img/bandeira-brasil.jfif"
 
 function Aboutme() {
     return (
