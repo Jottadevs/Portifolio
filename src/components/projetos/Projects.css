@@ -7,4 +7,59 @@
   background-color: var(--skills);
   top: 290vh;
   border-radius: 15px;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  position: relative;
+  left: 80px;
+  top: 30px;
+  font-size: 25px;
+  color: var(--elements);
+  font-weight: 700;
+}
+
+.projects {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 40px;
+}
+
+.project-calculadora {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  top: 10px;
+  background-color: var(--skills);
+  border-radius: 15px;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.project-mario {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  top: 10px;
+  left: 2%;
+  background-color: var(--skills);
+  border-radius: 15px;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.project-weather {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  top: 10px;
+  left: 4%;
+  background-color: var(--skills);
+  border-radius: 15px;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
 }

@@ -11,20 +11,18 @@ function Habilidades() {
                     <p>Habilidades de Jotta:</p>
 
                     <div className='desc-skills'>
-                        Minhas habilidades abrangem diversas áreas no mercado de tecnologia,
-                        desde montagem e manutenção de computadores e redes até programação.
-                        Tive meu primeiro contato profissional nesse campo há aproximadamente
-                        um ano, através de um curso técnico. Durante o curso, adquiri conhecimento
-                        em montagem de computadores, configuração de redes e sub-redes. <br />
+                        Sou um profissional com habilidades abrangentes no mercado
+                        de tecnologia, com experiência em montagem e manutenção de
+                        computadores, configuração de redes e sub-redes. Iniciei
+                        minha jornada no campo há cerca de um ano, por meio de
+                        um curso técnico, onde tive a oportunidade de me familiarizar
+                        com diversas tecnologias.
 
-                        No que diz respeito à programação, tive experiência com várias tecnologias,
-                        embora de forma breve, incluindo SQL , C++ , C#.
-                        Comecei a me aprofundar no desenvolvimento web utilizando HTML5, CSS3 e JavaScript
-                        e React Js. <br />
-
-                        Embora não tenha tido experiência profissional até o momento, estou empenhado
-                        em expandir meu conhecimento e aplicar minhas habilidades em projetos reais no futuro.
-
+                        Na área de programação, adquiri conhecimentos em SQL, C++, e C#,
+                        além de me aprofundar no desenvolvimento web com HTML5, CSS3, JavaScript
+                        e React Js. Embora ainda não tenha experiência profissional, estou
+                        determinado a expandir meu conhecimento e aplicar minhas habilidades
+                        em projetos reais no futuro.
                         <div className='certificados-titulo'>
                             <p>Certificados</p>
 
@@ -54,7 +52,7 @@ function Habilidades() {
                             </span>
                         </div>
 
-                        <p>Estou estudando/aperfeiçoando</p>
+                        <p>Estou estudando / aperfeiçoando</p>
                         <div className="icones-estudando">
                             <span className="js">
                                 <BiLogoJavascript />
