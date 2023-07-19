@@ -24,6 +24,26 @@ function Head() {
         });
     }
 
+    function skills() {
+        const elementoDestino = document.getElementById("skills");
+        const posicaoDestino = elementoDestino.offsetTop - window.innerHeight * 0.2;
+
+        window.scrollTo({
+            top: posicaoDestino,
+            behavior: "smooth"
+        });
+    }
+
+    function projects() {
+        const elementoDestino = document.getElementById("projects");
+        const posicaoDestino = elementoDestino.offsetTop - window.innerHeight * 0.2;
+
+        window.scrollTo({
+            top: posicaoDestino,
+            behavior: "smooth"
+        });
+    }
+
 
 
     return (
@@ -45,12 +65,12 @@ function Head() {
 
                         <label>
                             <h4 className='about-button'>Habilildades</h4>
-                            <input type='button' /* onClick={meusprojetos */ hidden></input>
+                            <input type='button' onClick={skills} hidden></input>
                         </label>
 
                         <label>
                             <h4 className='about-button'>Projetos</h4>
-                            <input type='button' /* onClick={meusprojetos */ hidden></input>
+                            <input type='button' onClick={projects} hidden></input>
                         </label>
                     </div>
                     <Sidebar />

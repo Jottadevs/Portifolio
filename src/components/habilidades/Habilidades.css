@@ -1,0 +1,129 @@
+#skills {
+  position: absolute;
+  width: 50%;
+  left: 10%;
+  height: 500px;
+  border: 3px solid #0d101c;
+  top: 215vh;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.skills {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 40px;
+  font-size: 25px;
+  color: var(--elements);
+  font-weight: 700;
+}
+
+.desc-skills {
+  color: var(--text);
+  font-size: 16px;
+  margin: 3% 10%;
+  font-weight: 510;
+}
+
+.certificados-titulo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 18px;
+  font-size: 25px;
+  color: var(--elements);
+  font-weight: 700;
+}
+
+.certificados {
+  color: var(--text);
+  font-size: 14px;
+  margin: 3% 1%;
+  font-weight: 500;
+}
+
+.senacsp {
+  font-weight: 700;
+  color: #f7bd23;
+}
+
+.icons {
+  position: absolute;
+  width: 25%;
+  left: 65%;
+  height: 500px;
+  border: 3px solid #0d101c;
+  top: 215vh;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tecnology {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+  font-size: 25px;
+  color: var(--elements);
+  font-weight: 700;
+}
+
+.icones-tec {
+  color: var(--text);
+  font-size: 16px;
+  margin: 5% 1%;
+  font-weight: 500;
+}
+
+.html {
+  color: #e44d26;
+}
+
+.css {
+  color: #0277bd;
+}
+
+.js {
+  color: #ffd600;
+}
+
+.react {
+  color: #00d8ff;
+}
+
+.cmais {
+  color: rgb(2, 97, 159);
+}
+
+.csharp {
+  position: relative;
+  left: 5px;
+  color: rgb(84, 0, 111);
+}
+
+.sql {
+  position: relative;
+  left: 15px;
+}
+
+.icones-conhecimento,
+.icones-estudando,
+.icones-breve {
+  margin: 10% 1%;
+  font-size: 55px;
+}
+
+.font {
+  font-size: 16px;
+}
