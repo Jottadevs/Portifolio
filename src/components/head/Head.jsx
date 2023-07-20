@@ -1,8 +1,9 @@
 
-import Sidebar from './sidebar/Sidebar'
+import Sidebar from './sidebar/Sidebar';
 import './Head.css'
 
 function Head() {
+
 
     function inicio() {
         const elementoDestino = document.getElementById("main");
@@ -43,8 +44,6 @@ function Head() {
             behavior: "smooth"
         });
     }
-
-
 
     return (
         <div>

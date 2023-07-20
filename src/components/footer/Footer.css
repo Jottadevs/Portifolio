@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.footer {
+  position: absolute;
+  top: 380vh;
+  width: 90%;
+  left: 5%;
+  height: 250px;
+  background-color: #ccc2;
+  border-radius: 15px 15px 0 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.descricao {
+  font-family: sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  top: 40px;
+  left: 80px;
+}
+
+.email {
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  font-weight: 300;
+  top: 130px;
+  left: 100px;
+  color: white;
+}
+
+.email a {
+  color: white;
+  text-decoration: none;
+}
+
+.email a:hover {
+  opacity: 0.6;
+}
+
+.logo-email {
+  position: relative;
+  font-size: 25px;
+  left: -20px;
+  top: 7px;
+  opacity: 0.8;
+}
+
+.contateme {
+  position: absolute;
+  top: -85px;
+  font-size: 15px;
+  color: white;
+  width: 150px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.redes-sociais {
+  width: 20px;
+  display: flex;
+  position: relative;
+  gap: 5px;
+  top: 140px;
+  left: 80px;
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+.redes-sociais a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.redes-sociais a:hover {
+  opacity: 0.6;
+}
+
+.novamente {
+  position: relative;
+  top: -15px;
+}
+
+.navegação {
+  position: absolute;
+  left: 80%;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.navegação label h4:hover {
+  opacity: 0.8;
+}
+
+.feitoem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 120px;
+  color: white;
+}
