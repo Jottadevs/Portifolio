@@ -1,14 +1,13 @@
 import './projects.css'
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs"
 
-/*
 const todolist = document.querySelector("#todolist")
 const calculadora = document.querySelector("#calculadora")
 const mario = document.querySelector("#mario")
 const clima = document.querySelector("#clima")
 const shopping = document.querySelector("#shopping")
 const piano = document.querySelector("#piano")
-*/
+
 
 
 function Projects() {

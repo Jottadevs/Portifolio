@@ -26,8 +26,8 @@ function Main() {
 
                     <div className="about-me">
                         <p>
-                            Sou programador Jr Front-end. Estou estudando programação a 9 messes <br />
-                            com intuito de ser um desenvolvedor full stack. Estou em busca da minha <br />
+                            Sou programador Jr Front-end. Estou estudando programação a aproximadamente<br />
+                            1 ano com intuito de ser um desenvolvedor full stack. Estou em busca da minha <br />
                             <strong>primeira</strong> vaga de emprego.  <br />
                             Minhas especialidades são até o momento são <span className='js-color'> Java script </span> e <span className='react-color'> React Js </span>.
                         </p>
