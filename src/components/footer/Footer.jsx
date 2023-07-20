@@ -3,7 +3,7 @@ import { FaInstagram } from 'react-icons/fa' // Iconde do instagram
 import { FaGithub } from 'react-icons/fa' // Icone do github
 import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin
 import { FaReact } from 'react-icons/fa' // Icone do react
-import { HiOutlineMail } from "react-icons/hi" // Icone do email
+import { FaEnvelope } from "react-icons/fa" // Icone do email
 
 function Footer() {
 
@@ -53,20 +53,15 @@ function Footer() {
 
 
             <p className="descricao">
-                Jottadevs &reg;
-            </p>
+                Jottadevs &reg; <br />
+                <span className="dev"> Front-end developer.</span>
 
-            <p className="email">
-                <a href="mailto:jottadevs.contato@gmail.com">
-                    <HiOutlineMail className='logo-email' />
-                </a>
-                jottadevs.contato@gmail.com
             </p>
-
 
             <div className="redes-sociais">
-
-                <p className='contateme'>Contate-me em:</p>
+                <a href="mailto:jottadevs.contato@gmail.com">
+                    <FaEnvelope />
+                </a>
 
                 <a href="https://instagram.com/jottalucass" target='_blanck'>
                     <FaInstagram />
@@ -87,25 +82,28 @@ function Footer() {
                     Veja novamente
                 </p>
 
-                <label>
-                    <h4 className='about-button'>Inicio</h4>
-                    <input type='button' onClick={inicio} hidden></input>
-                </label>
+                <div className="labels">
 
-                <label>
-                    <h4 className='about-button'>Sobre-mim</h4>
-                    <input type='button' onClick={sobremim} hidden></input>
-                </label>
+                    <label>
+                        <h4 className='about-button'>Inicio</h4>
+                        <input type='button' onClick={inicio} hidden></input>
+                    </label>
 
-                <label>
-                    <h4 className='about-button'>Minhas habilildades</h4>
-                    <input type='button' onClick={skills} hidden></input>
-                </label>
+                    <label>
+                        <h4 className='about-button'>Sobre-mim</h4>
+                        <input type='button' onClick={sobremim} hidden></input>
+                    </label>
 
-                <label>
-                    <h4 className='about-button'>Meus projetos</h4>
-                    <input type='button' onClick={projects} hidden></input>
-                </label>
+                    <label>
+                        <h4 className='about-button'>Minhas habilildades</h4>
+                        <input type='button' onClick={skills} hidden></input>
+                    </label>
+
+                    <label>
+                        <h4 className='about-button'>Meus projetos</h4>
+                        <input type='button' onClick={projects} hidden></input>
+                    </label>
+                </div>
             </div>
 
 

@@ -5,15 +5,14 @@
   top: 380vh;
   width: 90%;
   left: 5%;
-  height: 250px;
-  background-color: #ccc2;
+  height: 280px;
+  background-color: var(--skills);
   border-radius: 15px 15px 0 0;
   font-family: "Montserrat", sans-serif;
 }
 
 .descricao {
-  font-family: sans-serif;
-  color: white;
+  color: var(--text);
   font-size: 24px;
   font-weight: 600;
   position: relative;
@@ -21,52 +20,20 @@
   left: 80px;
 }
 
-.email {
+.dev {
   font-size: 16px;
-  font-weight: 600;
-  position: relative;
-  font-weight: 300;
-  top: 130px;
-  left: 100px;
-  color: white;
-}
-
-.email a {
-  color: white;
-  text-decoration: none;
-}
-
-.email a:hover {
-  opacity: 0.6;
-}
-
-.logo-email {
-  position: relative;
-  font-size: 25px;
-  left: -20px;
-  top: 7px;
-  opacity: 0.8;
-}
-
-.contateme {
-  position: absolute;
-  top: -85px;
-  font-size: 15px;
-  color: white;
-  width: 150px;
-  font-weight: 600;
-  opacity: 0.8;
+  font-weight: 400;
 }
 
 .redes-sociais {
-  width: 20px;
+  position: absolute;
   display: flex;
-  position: relative;
-  gap: 5px;
-  top: 140px;
-  left: 80px;
+  gap: 15px;
   font-size: 25px;
   opacity: 0.8;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 30px;
 }
 
 .redes-sociais a {
@@ -78,29 +45,30 @@
   opacity: 0.6;
 }
 
-.novamente {
-  position: relative;
-  top: -15px;
-}
-
 .navegação {
   position: absolute;
+  top: 40px;
   left: 80%;
-  color: white;
+  color: var(--text);
   font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
 }
 
 .navegação label h4:hover {
   opacity: 0.8;
 }
 
-.feitoem {
-  position: relative;
+.labels {
   display: flex;
-  justify-content: center;
-  top: 120px;
-  color: white;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  top: 50px;
+}
+
+.feitoem {
+  position: absolute;
+  display: flex;
+  left: 80px;
+  bottom: 38px;
+  color: var(--text);
 }
