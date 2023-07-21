@@ -1,0 +1,18 @@
+/* Estilos do FadeInOnScroll */
+.fade-in-on-scroll {
+  opacity: 0; /* Defina a opacidade inicial como 0 para esconder os elementos */
+  transform: translateY(
+    -50px
+  ); /* Deslocamento inicial para baixo (valor negativo para começar acima da tela) */
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1; /* Quando a classe .visible é adicionada, defina a opacidade como 1 para tornar os elementos visíveis */
+  transform: translateY(
+    0
+  ); /* Resetando o deslocamento para a posição original (sem deslocamento vertical) */
+}
+
+/* Ajuste os estilos conforme necessário */
+/* Adicione mais estilos para outros elementos, se necessário */
