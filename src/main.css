@@ -9,6 +9,7 @@ body {
   background: var(--background);
   height: 450vh;
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {

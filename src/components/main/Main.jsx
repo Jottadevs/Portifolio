@@ -1,7 +1,5 @@
 import './Main.css'
-import { FaInstagram } from 'react-icons/fa' // Iconde do instagram
-import { FaGithub } from 'react-icons/fa' // Icone do github
-import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin
+import { BiLink } from 'react-icons/bi'
 import Scrool from '../scrool/Scrool';
 
 import fundoDark from '../../../Images/backgroundDark.png'
@@ -31,14 +29,15 @@ function Main() {
                         <div className='links-sociais'>
                             <div className="github">
                                 <a href="https://github.com/Jottadevs" target='_blanck'>
-                                    <FaGithub />
+                                    <BiLink />
+                                    <span> Git hub</span>
                                 </a>
                             </div>
 
                             <div className="linkedin">
-
                                 <a href="https://www.linkedin.com/in/jo%C3%A3o-lucas-99aa9b259/" target='_blanck'>
-                                    <FaLinkedin />
+                                    <BiLink />
+                                    <span> Linkedin</span>
                                 </a>
                             </div>
                         </div>

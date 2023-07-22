@@ -21,21 +21,11 @@
   position: relative;
   left: 4rem;
   color: var(--text);
+  top: -3px;
 }
 
 .front-dev {
   font-size: 15px;
-}
-
-.menu {
-  position: absolute;
-  display: flex;
-  color: var(--text);
-  font-size: 20px;
-  left: 50%;
-  transform: translate(-50%);
-  width: 400px;
-  justify-content: space-between;
 }
 
 .about-button {

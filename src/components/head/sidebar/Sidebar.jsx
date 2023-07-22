@@ -8,6 +8,48 @@ import './Sidebar.css'
 
 function Sidebar() {
 
+    function inicio() {
+        const elementoDestino = document.getElementById("main");
+        const posicaoDestino = elementoDestino.offsetTop - window.innerHeight * 0.08;
+
+        window.scrollTo({
+            top: posicaoDestino,
+            behavior: "smooth"
+        });
+    }
+
+    function sobremim() {
+        const elementoDestino = document.getElementById("sobremim");
+        const posicaoDestino = elementoDestino.offsetTop - window.innerHeight * 0.2;
+
+        window.scrollTo({
+            top: posicaoDestino,
+            behavior: "smooth"
+        });
+    }
+
+    function skills() {
+        const elementoDestino = document.getElementById("skills");
+        const posicaoDestino = elementoDestino.offsetTop - window.innerHeight * 0.2;
+
+        window.scrollTo({
+            top: posicaoDestino,
+            behavior: "smooth"
+        });
+    }
+
+    function projects() {
+        const elementoDestino = document.getElementById("projects");
+        const posicaoDestino = elementoDestino.offsetTop - window.innerHeight * 0.2;
+
+        window.scrollTo({
+            top: posicaoDestino,
+            behavior: "smooth"
+        });
+    }
+
+
+
     let visible = false
 
     function sidebar() {
@@ -76,14 +118,43 @@ function Sidebar() {
                 <div className="elements-sidebar">
 
                     <p className='darkmode'>
-                        Light Mode
+                        Light Mode:
                         <label>
                             <input type="checkbox" id="darkmode-checkbox" hidden />
                             <MdDarkMode className='icon-darkmode' onClick={moonRotate} />
                         </label>
                     </p>
+
+                    <div className="menu">
+
+                        <p className='nav'>Navegação: </p>
+
+                        <label>
+                            <p className='about-button'>Inicio</p>
+                            <input type='button' onClick={inicio} hidden></input>
+                        </label>
+
+                        <label>
+                            <p className='about-button'>Sobre</p>
+                            <input type='button' onClick={sobremim} hidden></input>
+                        </label>
+
+                        <label>
+                            <p className='about-button'>Habilildades</p>
+                            <input type='button' onClick={skills} hidden></input>
+                        </label>
+
+                        <label>
+                            <p className='about-button'>Projetos</p>
+                            <input type='button' onClick={projects} hidden></input>
+                        </label>
+                    </div>
+
                 </div>
             </div>
+
+
+
         </div>
     );
 }
