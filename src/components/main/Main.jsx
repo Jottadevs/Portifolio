@@ -4,13 +4,16 @@ import { FaGithub } from 'react-icons/fa' // Icone do github
 import { FaLinkedin } from 'react-icons/fa' // Icone do linkedin
 import Scrool from '../scrool/Scrool';
 
+import fundoDark from '../../../Images/backgroundDark.png'
+import fundoWhite from '../../../Images/backgroundWhite.png'
+
 function Main() {
     return (
         <div>
 
             <div>
-                <img src='./Images/backgroundDark.png' className="background" />
-                <img src='./Images/backgroundWhite.png' className="background-white" />
+                <img src={fundoDark} className="background" />
+                <img src={fundoWhite} className="background-white" />
             </div>
 
             <main id='main' className="main">
@@ -22,31 +25,22 @@ function Main() {
                             <span className='color-Jotta'> Jotta</span></span>
                     </h1>
 
-                    <h2 className='Iam'>Eu sou desenvolvedor <span className='color-Front'>Front-End.</span></h2>
-
-                    <div className="about-me">
-                        <p>
-                            Sou programador Jr Front-end. Estou estudando programação a aproximadamente<br />
-                            1 ano com intuito de ser um desenvolvedor full stack. Estou em busca da minha <br />
-                            <strong>primeira</strong> vaga de emprego.  <br />
-                            Minhas especialidades são até o momento são <span className='js-color'> Java script </span> e <span className='react-color'> React Js </span>.
-                        </p>
-                    </div>
+                    <h2 className='Iam'>Desenvolvedor <span className='color-Front'>Front-End.</span></h2>
 
                     <div className='contacts'>
-                        <p className='contact'>
-                            Contate-me:
-                        </p>
                         <div className='links-sociais'>
-                            <a href="https://instagram.com/jottalucass" target='_blanck'>
-                                <FaInstagram />
-                            </a>
-                            <a href="https://github.com/Jottadevs" target='_blanck'>
-                                <FaGithub />
-                            </a>
-                            <a href="https://www.linkedin.com/in/jo%C3%A3o-lucas-99aa9b259/" target='_blanck'>
-                                <FaLinkedin />
-                            </a>
+                            <div className="github">
+                                <a href="https://github.com/Jottadevs" target='_blanck'>
+                                    <FaGithub />
+                                </a>
+                            </div>
+
+                            <div className="linkedin">
+
+                                <a href="https://www.linkedin.com/in/jo%C3%A3o-lucas-99aa9b259/" target='_blanck'>
+                                    <FaLinkedin />
+                                </a>
+                            </div>
                         </div>
                     </div>
 

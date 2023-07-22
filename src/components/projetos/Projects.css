@@ -32,6 +32,44 @@
   font-weight: 600;
 }
 
+.img {
+  position: relative;
+  border-radius: 10px;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  height: 40%;
+}
+
+.tec {
+  position: relative;
+  left: 50%;
+  transform: translate(-35%);
+  top: 50px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.clickme {
+  position: relative;
+  top: 60px;
+  color: var(--text);
+  left: 50%;
+  transform: translate(-25%);
+  opacity: 0.8;
+}
+
+.tecs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 22%;
+  color: white;
+  font-size: 30px;
+}
+
 .dev-image {
   position: absolute;
   left: 50%;
@@ -68,6 +106,10 @@
   transition: all 0.8s ease;
 
   transform: translateX(0);
+}
+
+.project:hover {
+  opacity: 0.8;
 }
 
 .projects {

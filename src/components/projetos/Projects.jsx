@@ -1,10 +1,22 @@
 import './projects.css'
 
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact } from "react-icons/bi"
+
+
+import setup from '../../../Images/elemento-grafico-setup.png'
+import dev from '../../../Images/elemento-grafico-dev.png'
+
+import calculadora from '../../../Images/calculadora.png'
+import mario from '../../../Images/mario.png'
+import weather from '../../../Images/weather.png'
+import todolist from '../../../Images/todo-list.png'
+import shopping from '../../../Images/shopping-cart.png'
+import piano from '../../../Images/Piano.png'
 
 const devimage = document.querySelector('.dev-image')
 const devsetup = document.querySelector('.setup-image')
 
-let fundo = false; // Certifique-se de que esta variável está sendo declarada e inicializada em algum lugar do seu código.
+let fundo = false;
 
 function projectview(event) {
     const projetoClicado = event.currentTarget;
@@ -64,20 +76,75 @@ function Projects() {
                     <h3 className='title-project'>Calculadora</h3>
                     <div className="line"></div>
 
+                    <img src={calculadora} alt="projeto-caluladora" className="img" id='calculadora-img'
+                        style={{ objectFit: 'cover', }}
+                    />
+
+                    <p className='tec'>
+                        Técnologias usadas:
+                    </p>
+
+                    <div className="tecs">
+                        <BiLogoHtml5 />
+                        <BiLogoCss3 />
+                        <BiLogoJavascript />
+                    </div>
+
+                    <p className="clickme">
+                        Clique em mim
+                    </p>
+
                 </div>
 
                 <div onClick={projectview} id="mario" className='project'>
                     <h3 className='title-project'>Mario</h3>
                     <div className="line"></div>
 
+                    <img src={mario} alt="projeto-caluladora" className="img" id='mario-img'
+                        style={{ objectFit: 'cover' }}
+                    />
+
+                    <p className='tec'>
+                        Técnologias usadas:
+                    </p>
+
+                    <div className="tecs">
+                        <BiLogoHtml5 />
+                        <BiLogoCss3 />
+                        <BiLogoJavascript />
+                    </div>
+
+                    <p className="clickme">
+                        Clique em mim
+                    </p>
+
                 </div>
 
                 <div onClick={projectview} id="clima" className='project'>
                     <h3 className='title-project'>Clima</h3>
                     <div className="line"></div>
+
+                    <img src={weather} alt="projeto-caluladora" className="img" id='weather-img'
+                        style={{ objectFit: 'cover' }}
+                    />
+
+                    <p className='tec'>
+                        Técnologias usadas:
+                    </p>
+
+                    <div className="tecs">
+                        <BiLogoHtml5 />
+                        <BiLogoCss3 />
+                        <BiLogoJavascript />
+                    </div>
+
+                    <p className="clickme">
+                        Clique em mim
+                    </p>
+
                 </div>
 
-                <img src='./Images/elemento-grafico-dev.png' alt="dev" className='dev-image' />
+                <img src={dev} alt="dev" className='dev-image' />
 
 
             </div>
@@ -87,11 +154,49 @@ function Projects() {
                     <h3 className='title-project'>Todo List</h3>
                     <div className="line"></div>
 
+                    <img src={todolist} alt="projeto-caluladora" className="img" id='todolist-img'
+                        style={{ objectFit: 'cover' }}
+                    />
+
+                    <p className='tec'>
+                        Técnologias usadas:
+                    </p>
+
+                    <div className="tecs">
+                        <BiLogoHtml5 />
+                        <BiLogoCss3 />
+                        <BiLogoJavascript />
+                        <BiLogoReact />
+                    </div>
+
+                    <p className="clickme">
+                        Clique em mim
+                    </p>
+
                 </div>
 
                 <div onClick={projectview2} id="shopping" className="project">
                     <h3 className='title-project'>Shopping Cart</h3>
                     <div className="line"></div>
+
+                    <img src={shopping} alt="projeto-caluladora" className="img" id='shopping-img'
+                        style={{ objectFit: 'cover' }}
+                    />
+
+                    <p className='tec'>
+                        Técnologias usadas:
+                    </p>
+
+                    <div className="tecs">
+                        <BiLogoHtml5 />
+                        <BiLogoCss3 />
+                        <BiLogoJavascript />
+                        <BiLogoReact />
+                    </div>
+
+                    <p className="clickme">
+                        Clique em mim
+                    </p>
 
                 </div>
 
@@ -99,9 +204,28 @@ function Projects() {
                     <h3 className='title-project'>Piano</h3>
                     <div className="line"></div>
 
+                    <img src={piano} alt="projeto-caluladora" className="img" id='piano-img'
+                        style={{ objectFit: 'cover' }}
+                    />
+
+                    <p className='tec'>
+                        Técnologias usadas:
+                    </p>
+
+                    <div className="tecs">
+                        <BiLogoHtml5 />
+                        <BiLogoCss3 />
+                        <BiLogoJavascript />
+                        <BiLogoReact />
+                    </div>
+
+                    <p className="clickme">
+                        Clique em mim
+                    </p>
+
                 </div>
 
-                <img src="./Images/elemento-grafico-setup.png" alt="setup" className='setup-image' />
+                <img src={setup} alt="setup" className='setup-image' />
 
             </div>
 
