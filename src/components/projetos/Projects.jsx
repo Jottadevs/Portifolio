@@ -1,4 +1,4 @@
-import './projects.css'
+import './Projects.css'
 
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact } from "react-icons/bi"
 

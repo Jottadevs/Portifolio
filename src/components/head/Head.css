@@ -23,14 +23,11 @@
   color: var(--text);
   top: -3px;
   cursor: pointer;
+  transition: all 1s ease;
 }
 
 .enterprise-p:hover {
   opacity: 0.9;
-
-  .front-dev {
-    display: none;
-  }
 }
 
 .front-dev {
