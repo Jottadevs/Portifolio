@@ -1,5 +1,5 @@
 //Icones
-import { BiMenuAltRight } from 'react-icons/bi' //Icone menu sidebar
+import { TbMenu } from 'react-icons/tb' //Icone menu sidebar
 import { MdDarkMode } from 'react-icons/md' // Icone do dark mode
 //Hooks
 import { useEffect } from 'react'
@@ -54,21 +54,24 @@ function Sidebar() {
 
     function sidebar() {
         const sidebar = document.querySelector('#sidebar-function')
-        const menuButton = document.querySelector(".icon-label")
+        const xis = document.querySelector(".xis")
+        const lineTop = document.querySelector('.lineTop')
+        const lineBottom = document.querySelector('.lineBottom')
 
         if (!visible) {
             visible = true;
             console.log('true')
             sidebar.classList.add("active")
-            menuButton.classList.add("active")
+            xis.classList.add("active")
+            lineTop.classList.add("active")
+            lineBottom.classList.add("active")
         } else {
             visible = false;
             console.log('false')
             sidebar.classList.remove("active");
-
-            setTimeout(() => {
-                menuButton.classList.remove("active");
-            }, 300);
+            xis.classList.remove("active");
+            lineTop.classList.remove("active")
+            lineBottom.classList.remove("active")
         }
     }
 
@@ -108,11 +111,10 @@ function Sidebar() {
     return (
 
         <div>
-
-            <label className='checkbox-sidebar-label'>
-                <input type="button" className='checkbox-input' onClick={sidebar} hidden />
-                <BiMenuAltRight className='icon-label' />
-            </label>
+            <div className="xis" onClick={sidebar}>
+                <div className="lineTop"></div>
+                <div className="lineBottom"></div>
+            </div>
 
             <div className='sidebar' id='sidebar-function'>
                 <div className="elements-sidebar">
@@ -155,7 +157,7 @@ function Sidebar() {
 
 
 
-        </div>
+        </div >
     );
 }
 

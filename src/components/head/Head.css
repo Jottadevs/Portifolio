@@ -22,6 +22,15 @@
   left: 4rem;
   color: var(--text);
   top: -3px;
+  cursor: pointer;
+}
+
+.enterprise-p:hover {
+  opacity: 0.9;
+
+  .front-dev {
+    display: none;
+  }
 }
 
 .front-dev {
