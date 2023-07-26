@@ -7,7 +7,7 @@
 
 body {
   background: var(--background);
-  height: 450vh;
+  height: 400vh;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -19,7 +19,7 @@ body {
   --text: #fafafa;
   --elements: #4685ff;
   --skills: #ddd2;
-  --projetos: #9061ff;
+  --projetos: #4684ffa7;
 }
 
 .light {
@@ -29,6 +29,7 @@ body {
   --sidebar: #050505;
   --elements: #9061ff;
   --skills: #ddd;
+  --projetos: #9061ff;
 }
 
 /* Largura e cor da barra */

@@ -1,10 +1,7 @@
 import './Projects.css'
 
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact } from "react-icons/bi"
-
-
-import setup from '../../../Images/elemento-grafico-setup.png'
-import dev from '../../../Images/elemento-grafico-dev.png'
+import { BiLink } from 'react-icons/bi'
 
 import calculadora from '../../../Images/calculadora.png'
 import mario from '../../../Images/mario.png'
@@ -13,57 +10,27 @@ import todolist from '../../../Images/todo-list.png'
 import shopping from '../../../Images/shopping-cart.png'
 import piano from '../../../Images/Piano.png'
 
-const devimage = document.querySelector('.dev-image')
-const devsetup = document.querySelector('.setup-image')
+let fundo = false
 
-let fundo = false;
+function viewproject2() {
+    const projeto2 = document.querySelector(".projects2")
+    const viewmore = document.querySelector(".vejamais")
+    const footer = document.querySelector(".footer")
 
-function projectview(event) {
-    const projetoClicado = event.currentTarget;
-
-    if (projetoClicado.classList.contains('active')) {
-        // O projeto clicado já está ativo, desative-o
-        projetoClicado.classList.remove('active');
-        devimage.classList.remove('move');
-        fundo = false;
-    } else if (!fundo) {
-        fundo = true;
-
-        const projetoAtivo = document.querySelector('.project.active');
-        if (projetoAtivo) {
-            projetoAtivo.classList.remove('active');
-        }
-
-        projetoClicado.classList.add('active');
-        devimage.classList.add('move');
+    if (!fundo) {
+        fundo = true
+        projeto2.classList.add("active")
+        viewmore.innerHTML = "Veja menos"
+        viewmore.classList.add("active")
+        footer.style.top = "430vh"
+    } else {
+        fundo = false
+        projeto2.classList.remove("active")
+        viewmore.innerHTML = "Veja mais"
+        viewmore.classList.remove("active")
+        footer.style.top = "380vh"
     }
 }
-
-
-
-function projectview2(event) {
-    const projetoClicado = event.currentTarget;
-
-    if (projetoClicado.classList.contains('active2')) {
-        // O projeto clicado já está ativo, desative-o
-        projetoClicado.classList.remove('active2');
-        devsetup.classList.remove('move');
-        fundo = false;
-    } else if (!fundo) {
-        fundo = true;
-
-        const projetoAtivo = document.querySelector('.project.active2');
-        if (projetoAtivo) {
-            projetoAtivo.classList.remove('active2');
-        }
-
-        projetoClicado.classList.add('active2');
-        devsetup.classList.add('move');
-    }
-}
-
-
-
 
 function Projects() {
     return (
@@ -72,89 +39,11 @@ function Projects() {
 
             <div className='projects'>
 
-                <div onClick={projectview} id="calculadora" className='project'>
-                    <h3 className='title-project'>Calculadora</h3>
-                    <div className="line"></div>
-
-                    <img src={calculadora} alt="projeto-caluladora" className="img" id='calculadora-img'
-                        style={{ objectFit: 'cover', }}
-                    />
-
-                    <p className='tec'>
-                        Técnologias usadas:
-                    </p>
-
-                    <div className="tecs">
-                        <BiLogoHtml5 />
-                        <BiLogoCss3 />
-                        <BiLogoJavascript />
-                    </div>
-
-                    <p className="clickme">
-                        Clique em mim
-                    </p>
-
-                </div>
-
-                <div onClick={projectview} id="mario" className='project'>
-                    <h3 className='title-project'>Mario</h3>
-                    <div className="line"></div>
-
-                    <img src={mario} alt="projeto-caluladora" className="img" id='mario-img'
-                        style={{ objectFit: 'cover' }}
-                    />
-
-                    <p className='tec'>
-                        Técnologias usadas:
-                    </p>
-
-                    <div className="tecs">
-                        <BiLogoHtml5 />
-                        <BiLogoCss3 />
-                        <BiLogoJavascript />
-                    </div>
-
-                    <p className="clickme">
-                        Clique em mim
-                    </p>
-
-                </div>
-
-                <div onClick={projectview} id="clima" className='project'>
-                    <h3 className='title-project'>Clima</h3>
-                    <div className="line"></div>
-
-                    <img src={weather} alt="projeto-caluladora" className="img" id='weather-img'
-                        style={{ objectFit: 'cover' }}
-                    />
-
-                    <p className='tec'>
-                        Técnologias usadas:
-                    </p>
-
-                    <div className="tecs">
-                        <BiLogoHtml5 />
-                        <BiLogoCss3 />
-                        <BiLogoJavascript />
-                    </div>
-
-                    <p className="clickme">
-                        Clique em mim
-                    </p>
-
-                </div>
-
-                <img src={dev} alt="dev" className='dev-image' />
-
-
-            </div>
-
-            <div className="projects2">
-                <div onClick={projectview2} id="todolist" className="project">
+                <div id="todolist" className="project">
                     <h3 className='title-project'>Todo List</h3>
                     <div className="line"></div>
 
-                    <img src={todolist} alt="projeto-caluladora" className="img" id='todolist-img'
+                    <img src={todolist} alt="projeto-todolist" className="img" id='todolist-img'
                         style={{ objectFit: 'cover' }}
                     />
 
@@ -169,17 +58,29 @@ function Projects() {
                         <BiLogoReact />
                     </div>
 
-                    <p className="clickme">
-                        Clique em mim
-                    </p>
+                    <div className='links-sociais'>
+                        <div className="github">
+                            <a href="https://github.com/Jottadevs/Lista-de-tarefas" target='_blanck'>
+                                <BiLink />
+                                <span> Codigo</span>
+                            </a>
+                        </div>
+
+                        <div className="linkedin">
+                            <a href="https://lista-de-tarefas-pearl-ten.vercel.app/" target='_blanck'>
+                                <BiLink />
+                                <span> Teste-o</span>
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
 
-                <div onClick={projectview2} id="shopping" className="project">
+                <div id="shopping" className="project">
                     <h3 className='title-project'>Shopping Cart</h3>
                     <div className="line"></div>
 
-                    <img src={shopping} alt="projeto-caluladora" className="img" id='shopping-img'
+                    <img src={shopping} alt="projeto-shopping" className="img" id='shopping-img'
                         style={{ objectFit: 'cover' }}
                     />
 
@@ -194,17 +95,28 @@ function Projects() {
                         <BiLogoReact />
                     </div>
 
-                    <p className="clickme">
-                        Clique em mim
-                    </p>
+                    <div className='links-sociais'>
+                        <div className="github">
+                            <a href="https://github.com/Jottadevs/Shopping-Cart" target='_blanck'>
+                                <BiLink />
+                                <span> Codigo</span>
+                            </a>
+                        </div>
 
+                        <div className="linkedin">
+                            <a href="https://shopping-cart-jottadevs.vercel.app/" target='_blanck'>
+                                <BiLink />
+                                <span> Teste-o</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <div onClick={projectview2} id="piano" className="project">
+                <div id="piano" className="project">
                     <h3 className='title-project'>Piano</h3>
                     <div className="line"></div>
 
-                    <img src={piano} alt="projeto-caluladora" className="img" id='piano-img'
+                    <img src={piano} alt="projeto-piano" className="img" id='piano-img'
                         style={{ objectFit: 'cover' }}
                     />
 
@@ -219,14 +131,141 @@ function Projects() {
                         <BiLogoReact />
                     </div>
 
-                    <p className="clickme">
-                        Clique em mim
-                    </p>
+                    <div className='links-sociais'>
+                        <div className="github">
+                            <a href="https://github.com/Jottadevs/Piano" target='_blanck'>
+                                <BiLink />
+                                <span> Codigo</span>
+                            </a>
+                        </div>
+
+                        <div className="linkedin">
+                            <a href="https://piano-ecru.vercel.app/" target='_blanck'>
+                                <BiLink />
+                                <span> Teste-o</span>
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
 
-                <img src={setup} alt="setup" className='setup-image' />
 
+                <p className='vejamais' onClick={viewproject2}>
+                    Veja mais
+                </p>
+
+
+                <div className="projects2">
+
+                    <div id="projectOcult" className='project'>
+                        <h3 className='title-project'>Calculadora</h3>
+                        <div className="line"></div>
+
+                        <img src={calculadora} alt="projeto-caluladora" className="img" id='calculadora-img'
+                            style={{ objectFit: 'cover' }}
+                        />
+
+                        <p className='tec'>
+                            Técnologias usadas:
+                        </p>
+
+                        <div className="tecs">
+                            <BiLogoHtml5 />
+                            <BiLogoCss3 />
+                            <BiLogoJavascript />
+                        </div>
+
+                        <div className='links-sociais'>
+                            <div className="github">
+                                <a href="https://github.com/Jottadevs/Calculadora" target='_blanck'>
+                                    <BiLink />
+                                    <span> Codigo</span>
+                                </a>
+                            </div>
+
+                            <div className="linkedin">
+                                <a href="https://calculadora-jottadevs.vercel.app/" target='_blanck'>
+                                    <BiLink />
+                                    <span> Teste-o</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="projectOcult" className='project'>
+                        <h3 className='title-project'>Mario</h3>
+                        <div className="line"></div>
+
+                        <img src={mario} alt="projeto-mario" className="img" id='mario-img'
+                            style={{ objectFit: 'cover' }}
+                        />
+
+                        <p className='tec'>
+                            Técnologias usadas:
+                        </p>
+
+                        <div className="tecs">
+                            <BiLogoHtml5 />
+                            <BiLogoCss3 />
+                            <BiLogoJavascript />
+                        </div>
+
+                        <div className='links-sociais'>
+                            <div className="github">
+                                <a href="https://github.com/Jottadevs/Mario-Jump" target='_blanck'>
+                                    <BiLink />
+                                    <span> Codigo</span>
+                                </a>
+                            </div>
+
+                            <div className="linkedin">
+                                <a href="https://mario-jump-lime.vercel.app/" target='_blanck'>
+                                    <BiLink />
+                                    <span> Teste-o</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="projectOcult" className='project'>
+                        <h3 className='title-project'>Clima</h3>
+                        <div className="line"></div>
+
+                        <img src={weather} alt="projeto-clima" className="img" id='weather-img'
+                            style={{ objectFit: 'cover' }}
+                        />
+
+                        <p className='tec'>
+                            Técnologias usadas:
+                        </p>
+
+                        <div className="tecs">
+                            <BiLogoHtml5 />
+                            <BiLogoCss3 />
+                            <BiLogoJavascript />
+                        </div>
+
+                        <div className='links-sociais'>
+                            <div className="github">
+                                <a href="https://github.com/Jottadevs/Weather" target='_blanck'>
+                                    <BiLink />
+                                    <span> Codigo</span>
+                                </a>
+                            </div>
+
+                            <div className="linkedin">
+                                <a href="https://weather-jottadevs.vercel.app/" target='_blanck'>
+                                    <BiLink />
+                                    <span> Teste-o</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
 
         </div>
