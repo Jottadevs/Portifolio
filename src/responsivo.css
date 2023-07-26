@@ -9,40 +9,16 @@
 }
 
 @media (min-width: 1367px) and (max-width: 1920px) {
-  #skills {
-    top: 175vh;
-  }
-
-  .icons {
-    top: 175vh;
-  }
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) {
-  .menu {
-    left: 650px;
-  }
-
-  .section-aboutme {
-    height: 550px;
+  .desc-skills {
+    font-size: 13px;
   }
 
   .desc-about {
-    width: 550px;
-  }
-
-  .idiomas {
-    top: 20px;
-  }
-
-  #skills {
-    top: 175vh;
-    height: 520px;
-  }
-
-  .icons {
-    top: 175vh;
-    height: 520px;
+    width: 50%;
+    font-size: 13px;
   }
 }
 

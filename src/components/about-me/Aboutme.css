@@ -63,8 +63,9 @@
   top: 80px;
   left: 370px;
   font-size: 18px;
-  width: 700px;
   opacity: 0.8;
+  width: 60%;
+  height: 30%;
 }
 
 .idioma-br {

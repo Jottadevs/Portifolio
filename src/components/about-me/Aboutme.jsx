@@ -15,7 +15,7 @@ function Aboutme() {
 
 
                 <p className='desc-about'>
-                    Meu nome é João Lucas e estou estudando programação desde o fim do anode
+                    Meu nome é João Lucas e estou estudando programação desde o fim do ano de
                     2022, possuo 18 anos meu primeiro contato com programação foi na  escola com
                     amigos que ja estudavam a um tempo, e desde então me   apaioxenei pela área
                     e venho estudando desde então, eu iniciei um curso  técnico de informática
