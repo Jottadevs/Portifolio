@@ -71,7 +71,7 @@
 
 .xis {
   position: relative;
-  right: 80px;
+  margin-right: 2em;
   top: 3px;
   font-size: 30px;
   cursor: pointer;

@@ -11,6 +11,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.footer.active {
+  top: 430vh;
+}
+
 .descricao {
   color: var(--text);
   font-size: 24px;

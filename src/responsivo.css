@@ -1,35 +1,180 @@
-/* @media (min-width: 1920px) {
-  #skills {
-    top: 180vh;
-  }
+@media screen and (max-width: 380px) {
 
-  .icons {
-    top: 180vh;
-  }
+    /* head */
+
+    .header-content{
+        width: 100%;
+        height: 7.5rem;
+    }
+
+    .enterprise-p{
+        font-size: 18px;
+        top: 2px
+    }
+
+    .xis{
+        position: fixed;
+        left: 90%;
+        top: 50%;
+        transform: translate(-50%);
+    }
+
+    .sidebar{
+        transform: translateX(300px);
+        top: 80px;
+    }
+
+    .xis.active{
+        top: 110px;
+    }
+
+   /* main */ 
+
+   .apresentation-main{
+    font-size: 15px;
+    left: 15%;
+   }
+
+   .contacts{
+    top: 140px;
+    left: -15px;
+   }
+
+   /* about me */
+
+   .section-aboutme{
+    top: 100vh;
+    height: 1300px;
+    width: 260px;
+    overflow-x: hidden;
+   }
+
+   .picture-j{
+    width: 240px;
+    top: 60px;
+    left: 5%;
+   }
+
+   .iam-j {
+    left: 20%;
+    top: 380px;
+   }
+
+   .desc-about{
+    left: 7%;
+    top: 400px;
+    width: 90%;
+   }
+
+   .idioma{
+    top: 420px;
+    left: 30px;
+   }
+
+   .idioma-br{
+    left: 130px;
+    top: 1120px;
+   }
+
+   .idioma-eua{
+    left: 130px;
+    top: 1200px;
+   }
+
+   /* habilidades */
+
+   #skills {
+    top: 310vh;
+    width: 80%;
+    height: 700px;
+   }
+
+   .skills{
+    font-size: 23px;
+   }
+
+   .desc-skills{
+    font-size: 15px;
+    font-weight: 400;
+   }
+
+   .icons{
+    width: 80%;
+    left: 10%;
+    top: 420vh;
+   }
+
+   /* projects */ 
+
+   #projects{
+    top: 510vh;
+   }
+
+   .projects {
+    flex-direction: column;
+    gap: 100px;
+   }
+
+   .projects2.active{
+    flex-direction: column;
+    gap: 100px;
+    top: 160vh;
+   }
+
+   .vejamais {
+    top: 1060px;
+   }
+   .vejamais.active {
+    top: 2120px;
+   }
+
+   /* footer */
+
+   .footer{
+    overflow-x: hidden;
+    top: 690vh;
+   }
+
+   .footer.active{
+    top: 850vh;
+   }
+
+   .redes-sociais{
+    bottom: 80px;
+   }
+
+   .navegação{
+    display: none;
+   }
+
 }
 
-@media (min-width: 1367px) and (max-width: 1920px) {
+@media screen and (max-width: 480px) {
+  
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) {
-  .desc-skills {
-    font-size: 13px;
-  }
 
-  .desc-about {
-    width: 50%;
-    font-size: 13px;
-  }
+/*
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  ...;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  ...;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  ...;
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  ...;
 }
 
-@media (max-width: 320px) {
-} */
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  ...;
+}
+
+@media screen and (min-width: 1920px) {
+  ...;
+}

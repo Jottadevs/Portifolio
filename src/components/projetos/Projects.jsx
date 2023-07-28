@@ -22,13 +22,13 @@ function viewproject2() {
         projeto2.classList.add("active")
         viewmore.innerHTML = "Veja menos"
         viewmore.classList.add("active")
-        footer.style.top = "430vh"
+        footer.classList.add("active")
     } else {
         fundo = false
         projeto2.classList.remove("active")
         viewmore.innerHTML = "Veja mais"
         viewmore.classList.remove("active")
-        footer.style.top = "380vh"
+        footer.classList.remove("active")
     }
 }
 
