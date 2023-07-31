@@ -3,7 +3,7 @@
 
   .header-content {
     width: 100%;
-    height: 7.5rem;
+    height: 6rem;
   }
 
   .enterprise-p {
@@ -40,6 +40,10 @@
   }
   .contacts {
     top: 200px;
+  }
+
+  .scroll-mouse {
+    display: none;
   }
 
   /* about me */
@@ -86,7 +90,7 @@
   /* habilidades */
 
   #skills {
-    top: 260vh;
+    top: 265vh;
     width: 80%;
     height: 700px;
   }
@@ -103,13 +107,13 @@
   .icons {
     width: 80%;
     left: 10%;
-    top: 345vh;
+    top: 351vh;
   }
 
   /* projects */
 
   #projects {
-    top: 415vh;
+    top: 425vh;
   }
 
   .projects {
@@ -124,7 +128,7 @@
   .projects2.active {
     flex-direction: column;
     gap: 100px;
-    top: 123vh;
+    top: 130vh;
   }
 
   .vejamais {
@@ -132,18 +136,18 @@
   }
 
   .vejamais.active {
-    top: 2150px;
+    top: 2220px;
   }
 
   /* footer */
 
   .footer {
     overflow-x: hidden;
-    top: 560vh;
+    top: 570vh;
   }
 
   .footer.active {
-    top: 670vh;
+    top: 705vh;
   }
 
   .redes-sociais {
@@ -282,7 +286,7 @@
     top: 1060px;
   }
   .vejamais.active {
-    top: 2120px;
+    top: 2220px;
   }
 
   /* footer */
