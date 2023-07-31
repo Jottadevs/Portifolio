@@ -1,158 +1,309 @@
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
+  /* head */
 
-    /* head */
+  .header-content {
+    width: 100%;
+    height: 7.5rem;
+  }
 
-    .header-content{
-        width: 100%;
-        height: 7.5rem;
-    }
+  .enterprise-p {
+    font-size: 18px;
+    top: 2px;
+  }
 
-    .enterprise-p{
-        font-size: 18px;
-        top: 2px
-    }
+  .xis {
+    position: fixed;
+    left: 90%;
+    top: 50%;
+    transform: translate(-50%);
+  }
 
-    .xis{
-        position: fixed;
-        left: 90%;
-        top: 50%;
-        transform: translate(-50%);
-    }
+  .sidebar {
+    transform: translateX(300px);
+    top: 80px;
+  }
 
-    .sidebar{
-        transform: translateX(300px);
-        top: 80px;
-    }
+  .xis.active {
+    top: 110px;
+  }
 
-    .xis.active{
-        top: 110px;
-    }
+  /* main */
 
-   /* main */ 
-
-   .apresentation-main{
-    font-size: 15px;
+  .apresentation-main {
+    font-size: 20px;
     left: 15%;
-   }
+  }
 
-   .contacts{
-    top: 140px;
-    left: -15px;
-   }
+  .links-sociais {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts {
+    top: 200px;
+  }
 
-   /* about me */
+  /* about me */
 
-   .section-aboutme{
+  .section-aboutme {
     top: 100vh;
     height: 1300px;
     width: 260px;
     overflow-x: hidden;
-   }
+  }
 
-   .picture-j{
+  .picture-j {
     width: 240px;
     top: 60px;
     left: 5%;
-   }
+  }
 
-   .iam-j {
+  .iam-j {
     left: 20%;
     top: 380px;
-   }
+  }
 
-   .desc-about{
+  .desc-about {
     left: 7%;
     top: 400px;
     width: 90%;
-   }
+  }
 
-   .idioma{
+  .idioma {
     top: 420px;
     left: 30px;
-   }
+  }
 
-   .idioma-br{
+  .idioma-br {
     left: 130px;
     top: 1120px;
-   }
+  }
 
-   .idioma-eua{
+  .idioma-eua {
     left: 130px;
     top: 1200px;
-   }
+  }
 
-   /* habilidades */
+  /* habilidades */
 
-   #skills {
+  #skills {
+    top: 260vh;
+    width: 80%;
+    height: 700px;
+  }
+
+  .skills {
+    font-size: 23px;
+  }
+
+  .desc-skills {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .icons {
+    width: 80%;
+    left: 10%;
+    top: 345vh;
+  }
+
+  /* projects */
+
+  #projects {
+    top: 415vh;
+  }
+
+  .projects {
+    flex-direction: column;
+    gap: 120px;
+  }
+
+  #links {
+    flex-direction: row;
+  }
+
+  .projects2.active {
+    flex-direction: column;
+    gap: 100px;
+    top: 123vh;
+  }
+
+  .vejamais {
+    top: 1100px;
+  }
+
+  .vejamais.active {
+    top: 2150px;
+  }
+
+  /* footer */
+
+  .footer {
+    overflow-x: hidden;
+    top: 560vh;
+  }
+
+  .footer.active {
+    top: 670vh;
+  }
+
+  .redes-sociais {
+    bottom: 80px;
+  }
+
+  .navegação {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  /* head */
+
+  .header-content {
+    width: 100%;
+    height: 7.5rem;
+  }
+
+  .enterprise-p {
+    font-size: 18px;
+    top: 2px;
+  }
+
+  .xis {
+    position: fixed;
+    left: 90%;
+    top: 50%;
+    transform: translate(-50%);
+  }
+
+  .sidebar {
+    transform: translateX(300px);
+    top: 80px;
+  }
+
+  .xis.active {
+    top: 110px;
+  }
+
+  /* main */
+
+  .apresentation-main {
+    top: 60px;
+    font-size: 15px;
+    left: 15%;
+  }
+
+  .contacts {
+    top: 40px;
+    left: 1px;
+  }
+
+  /* about me */
+
+  .section-aboutme {
+    top: 100vh;
+    height: 1300px;
+    width: 260px;
+    overflow-x: hidden;
+  }
+
+  .picture-j {
+    width: 240px;
+    top: 60px;
+    left: 5%;
+  }
+
+  .iam-j {
+    left: 20%;
+    top: 380px;
+  }
+
+  .desc-about {
+    left: 7%;
+    top: 400px;
+    width: 90%;
+  }
+
+  .idioma {
+    top: 420px;
+    left: 30px;
+  }
+
+  .idioma-br {
+    left: 130px;
+    top: 1120px;
+  }
+
+  .idioma-eua {
+    left: 130px;
+    top: 1200px;
+  }
+
+  /* habilidades */
+
+  #skills {
     top: 310vh;
     width: 80%;
     height: 700px;
-   }
+  }
 
-   .skills{
+  .skills {
     font-size: 23px;
-   }
+  }
 
-   .desc-skills{
+  .desc-skills {
     font-size: 15px;
     font-weight: 400;
-   }
+  }
 
-   .icons{
+  .icons {
     width: 80%;
     left: 10%;
     top: 420vh;
-   }
+  }
 
-   /* projects */ 
+  /* projects */
 
-   #projects{
+  #projects {
     top: 510vh;
-   }
+  }
 
-   .projects {
+  .projects {
     flex-direction: column;
     gap: 100px;
-   }
+  }
 
-   .projects2.active{
+  .projects2.active {
     flex-direction: column;
     gap: 100px;
     top: 160vh;
-   }
+  }
 
-   .vejamais {
+  .vejamais {
     top: 1060px;
-   }
-   .vejamais.active {
+  }
+  .vejamais.active {
     top: 2120px;
-   }
+  }
 
-   /* footer */
+  /* footer */
 
-   .footer{
+  .footer {
     overflow-x: hidden;
     top: 690vh;
-   }
+  }
 
-   .footer.active{
+  .footer.active {
     top: 850vh;
-   }
+  }
 
-   .redes-sociais{
+  .redes-sociais {
     bottom: 80px;
-   }
+  }
 
-   .navegação{
+  .navegação {
     display: none;
-   }
-
+  }
 }
-
-@media screen and (max-width: 480px) {
-  
-}
-
 
 /*
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -178,3 +329,4 @@
 @media screen and (min-width: 1920px) {
   ...;
 }
+*/

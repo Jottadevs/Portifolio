@@ -58,7 +58,7 @@ function Projects() {
                         <BiLogoReact />
                     </div>
 
-                    <div className='links-sociais'>
+                    <div id='links' className='links-sociais'>
                         <div className="github">
                             <a href="https://github.com/Jottadevs/Lista-de-tarefas" target='_blanck'>
                                 <BiLink />
@@ -95,7 +95,7 @@ function Projects() {
                         <BiLogoReact />
                     </div>
 
-                    <div className='links-sociais'>
+                    <div id='links' className='links-sociais'>
                         <div className="github">
                             <a href="https://github.com/Jottadevs/Shopping-Cart" target='_blanck'>
                                 <BiLink />
@@ -131,7 +131,7 @@ function Projects() {
                         <BiLogoReact />
                     </div>
 
-                    <div className='links-sociais'>
+                    <div id='links' className='links-sociais'>
                         <div className="github">
                             <a href="https://github.com/Jottadevs/Piano" target='_blanck'>
                                 <BiLink />
@@ -175,7 +175,7 @@ function Projects() {
                             <BiLogoJavascript />
                         </div>
 
-                        <div className='links-sociais'>
+                        <div id='links' className='links-sociais'>
                             <div className="github">
                                 <a href="https://github.com/Jottadevs/Calculadora" target='_blanck'>
                                     <BiLink />
@@ -211,7 +211,7 @@ function Projects() {
                             <BiLogoJavascript />
                         </div>
 
-                        <div className='links-sociais'>
+                        <div id='links' className='links-sociais'>
                             <div className="github">
                                 <a href="https://github.com/Jottadevs/Mario-Jump" target='_blanck'>
                                     <BiLink />
@@ -247,7 +247,7 @@ function Projects() {
                             <BiLogoJavascript />
                         </div>
 
-                        <div className='links-sociais'>
+                        <div id='links' className='links-sociais'>
                             <div className="github">
                                 <a href="https://github.com/Jottadevs/Weather" target='_blanck'>
                                     <BiLink />
