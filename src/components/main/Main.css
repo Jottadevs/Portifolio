@@ -36,8 +36,8 @@
 /* social icones */
 
 .contacts {
-  position: relative;
-  top: 200px;
+  position: absolute;
+  top: 250px;
 }
 
 .links-sociais {

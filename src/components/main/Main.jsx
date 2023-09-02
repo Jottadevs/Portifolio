@@ -23,7 +23,10 @@ function Main() {
                             <span className='color-Jotta'> Jotta</span></span>
                     </h1>
 
-                    <h2 className='Iam'>Desenvolvedor <span className='color-Front'>Front-End.</span></h2>
+                    <h2 className='Iam'>Desenvolvedor <span className='color-Front'>Front-End </span>
+                    </h2>
+
+
 
                     <div className='contacts'>
                         <div className='links-sociais'>
