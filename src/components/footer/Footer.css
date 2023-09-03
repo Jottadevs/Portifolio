@@ -2,7 +2,7 @@
 
 .footer {
   position: relative;
-  top: 380vh;
+  top: 410vh;
   width: 90%;
   left: 5%;
   height: 280px;
@@ -12,7 +12,7 @@
 }
 
 .footer.active {
-  top: 430vh;
+  top: 470vh;
 }
 
 .descricao {

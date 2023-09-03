@@ -2,7 +2,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  top: 290vh;
+  top: 385vh;
   border-radius: 15px;
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: row;
   top: 40px;
-  gap: 10px;
+  gap: 20px;
 }
 
 .projects2 {
@@ -48,7 +48,7 @@
   position: absolute;
   top: 380px;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .title-project {
@@ -58,7 +58,7 @@
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  color: var(--text);
+  color: white;
   font-weight: 600;
   z-index: 1;
 }
