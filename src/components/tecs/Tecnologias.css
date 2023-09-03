@@ -1,0 +1,38 @@
+#tecs {
+  position: absolute;
+  top: 300vh;
+  left: 50%;
+  transform: translate(-50%);
+  color: var(--elements);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  top: 310vh;
+  color: var(--elements);
+}
+
+.square {
+  width: 90px;
+  height: 90px;
+  transform: rotateZ(45deg);
+  background-color: var(--Babout);
+  margin: 50px;
+  box-sizing: content-box;
+}
+
+.form {
+  font-size: 50px;
+  transform: rotateZ(-45deg);
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
